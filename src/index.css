@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Space Grotesk", "Noto Sans TC", sans-serif;
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 15% 10%, rgba(32, 117, 255, 0.18), transparent 35%),
+    radial-gradient(circle at 85% 85%, rgba(255, 71, 87, 0.15), transparent 40%),
+    linear-gradient(140deg, #070b14 10%, #0f172a 45%, #111827 100%);
+}
