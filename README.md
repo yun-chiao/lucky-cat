@@ -9,6 +9,11 @@ Lucky Cat is a full-stack hackathon prototype that combines:
 
 This repository is open source and intended as a reproducible demo project.
 
+## Live Demo
+
+- Demo app: `https://lucky-cat-ze6o.vercel.app`
+- Backend API: `https://lucky-cat.onrender.com`
+
 ## 1) Setup Instructions
 
 ### Frontend
@@ -43,7 +48,7 @@ uvicorn app.main:app --reload --port 8000
 
 Backend endpoint:
 
-- `http://127.0.0.1:8000`
+- `http://localhost:8000`
 
 ## 2) Architecture Overview
 
